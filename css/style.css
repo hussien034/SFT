@@ -1,0 +1,181 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+#header{
+    overflow: hidden;
+}
+h1{
+    font-size:40px;
+    font-family: 'Signika Negative', sans-serif !important;
+}
+#background-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    direction: rtl;
+    background-color: black;
+    height: 80px !important;
+}
+.nav-link{
+    color:#8cff00;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color:white;
+}
+.navbar-toggler{
+    background-color: aliceblue;
+}
+  .ministry{
+    width: 70px;
+}
+.home{
+   height: 100vh;
+   width: 100%;
+   text-align: center;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+   background-color: black;
+}
+.head{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    width: 100%;
+}
+.btn-1{
+    background-color: #ffd530;
+    clip-path: polygon(0 0,calc(100% - 1rem) 0,100% 50%,calc(100% - 1rem) 100%,0 100%);
+    color: #111;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 1.5rem 3.25rem 1.5rem 2.5rem;
+}
+.btn-1:hover{
+    background-color: #d8b834 !important;
+}
+.inst{
+    direction: rtl;
+    margin-top: 40px;
+}
+#instructions{
+    background-color: black;  
+    padding: 20px;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-size: 25px;
+    margin: 25px 0px;
+    font-family: 'Lemonada', cursive;
+}
+h3{
+    font-size: 25px;
+    margin: 25px 0px;
+    font-family: 'Lemonada', cursive;
+}
+#instructions li{
+    font-size: 20px;
+}
+.btn-2{
+    border: 0px;
+    border-bottom:4px solid  #d8b834;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.groubs{
+    margin-top: 40px;
+}
+
+.bord-bot{
+  border: 0px;
+  border-bottom:4px solid  #d8b834;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+#courses{
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+}
+.cours{
+    direction: rtl;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+.p-cours{
+   font-size: 18px; 
+   color: #d8b834;
+}
+.fa-arrow-left{
+    font-size:15px !important;
+    margin: 4px;
+}
+#short{
+    background-color: #000000;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    color: white;
+    direction: rtl;
+    overflow: hidden;
+}
+#short p{
+    font-size: 20px;
+    line-height: 40px;
+}
+#short h2{
+    font-size: 35px;
+    color: #8cff00;
+}
+#map{
+    background-color: #000000;
+    direction: rtl;
+    padding: 40px;
+}
+#map h2{
+    text-align: center;
+    font-size: 35px;
+    color: #8cff00;
+    font-family: 'Lemonada', cursive;
+}
+img{
+    border-radius: 20px;
+}
+/*-------------------responsive----------------*/
+@media all and (max-width:500px){
+    .ministry{
+        width: 60px;
+    }
+    .collapse{
+        background-color: #d8b834; 
+    }
+    .nav-link{
+        color: black;
+        font-family: 'Baloo Bhaijaan 2', sans-serif;
+        font-size: 20px;
+    }
+}
+@media all and (min-width:500px){
+    .cont-li{
+        display: flex;
+        justify-content: space-between;
+    }
+}
