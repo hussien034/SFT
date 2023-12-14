@@ -5,8 +5,9 @@ body{
     overflow: hidden;
 }
 h1{
-    font-size:40px;
-    font-family: 'Signika Negative', sans-serif !important;
+    font-size:35px;
+    line-height: 50px;
+    font-family: 'Lemonada', cursive;
 }
 #background-video {
     width: 100%;
@@ -25,7 +26,7 @@ h1{
     height: 80px !important;
 }
 .nav-link{
-    color:#8cff00;
+    color:yellow;
     font-family: 'Baloo Bhaijaan 2', sans-serif;
     font-size: 20px;
 }
@@ -55,7 +56,7 @@ h1{
     width: 100%;
 }
 .btn-1{
-    background-color: #ffd530;
+    background-color: yellow;
     clip-path: polygon(0 0,calc(100% - 1rem) 0,100% 50%,calc(100% - 1rem) 100%,0 100%);
     color: #111;
     cursor: pointer;
@@ -64,7 +65,7 @@ h1{
     padding: 1.5rem 3.25rem 1.5rem 2.5rem;
 }
 .btn-1:hover{
-    background-color: #d8b834 !important;
+    background-color: yellow !important;
 }
 .inst{
     direction: rtl;
@@ -95,11 +96,12 @@ h3{
 }
 .btn-2{
     border: 0px;
-    border-bottom:4px solid  #d8b834;
+    border-bottom:4px solid  yellow;
     background-color: transparent;
     color: white;
     font-size: 25px;
     margin: 20px 0px;
+    cursor: auto !important;
 }
 .groubs{
     margin-top: 40px;
@@ -107,11 +109,12 @@ h3{
 
 .bord-bot{
   border: 0px;
-  border-bottom:4px solid  #d8b834;
+  border-bottom:4px solid  yellow;
   background-color: transparent;
   color: white;
   font-size: 25px;
   margin: 20px 0px;
+  cursor: auto !important;
 }
 #courses{
     background-color: #000000;
@@ -124,7 +127,7 @@ h3{
 }
 .p-cours{
    font-size: 18px; 
-   color: #d8b834;
+   color: yellow;
 }
 .fa-arrow-left{
     font-size:15px !important;
@@ -143,7 +146,7 @@ h3{
 }
 #short h2{
     font-size: 35px;
-    color: #8cff00;
+    color: yellow;
 }
 #map{
     background-color: #000000;
@@ -153,7 +156,7 @@ h3{
 #map h2{
     text-align: center;
     font-size: 35px;
-    color: #8cff00;
+    color: yellow;
     font-family: 'Lemonada', cursive;
 }
 img{
@@ -165,12 +168,21 @@ img{
         width: 60px;
     }
     .collapse{
-        background-color: #d8b834; 
+        background-color: yellow; 
     }
     .nav-link{
         color: black;
         font-family: 'Baloo Bhaijaan 2', sans-serif;
         font-size: 20px;
+    }
+    .nav-link:hover{
+        color:black;
+    }
+    .ord-1{
+        order: 1 !important;
+    }
+    .ord-2{
+        order: 2;
     }
 }
 @media all and (min-width:500px){
@@ -178,4 +190,5 @@ img{
         display: flex;
         justify-content: space-between;
     }
+    
 }
